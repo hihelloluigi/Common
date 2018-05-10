@@ -1,0 +1,16 @@
+PODS:
+  - ArubaCommons (0.1.0)
+
+DEPENDENCIES:
+  - ArubaCommons (from `../`)
+
+EXTERNAL SOURCES:
+  ArubaCommons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArubaCommons: dd13d1b4228edb8aa291c08975872fa671f38802
+
+PODFILE CHECKSUM: ac553280fa186a5a3a59cdb92533988015def493
+
+COCOAPODS: 1.5.0

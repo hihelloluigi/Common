@@ -1,0 +1,22 @@
+{
+  "name": "ArubaCommons",
+  "version": "0.1.0",
+  "summary": "A short description of ArubaCommons.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mo3bius/ArubaCommons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mo3bius": "luigiaiello97@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mo3bius/ArubaCommons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ArubaCommons/Classes/**/*"
+}
