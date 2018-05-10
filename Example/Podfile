@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ArubaCommons_Example' do
+  pod 'ArubaCommons', :path => '../'
+
+  target 'ArubaCommons_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
