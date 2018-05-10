@@ -1,3 +1,10 @@
+## Target platform
+platform :ios, '9.0'
+
+## External source
+source 'https://github.com/CocoaPods/Specs.git'
+
+## Use frameworks
 use_frameworks!
 
 target 'ArubaCommons_Example' do

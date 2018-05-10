@@ -1,15 +1,22 @@
 PODS:
-  - ArubaCommons (0.1.0)
+  - ArubaCommons (0.1.0):
+    - SwiftLint
+  - SwiftLint (0.25.1)
 
 DEPENDENCIES:
   - ArubaCommons (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftLint
 
 EXTERNAL SOURCES:
   ArubaCommons:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ArubaCommons: dd13d1b4228edb8aa291c08975872fa671f38802
+  ArubaCommons: fb101bd679d3cb587ad57751201c78e717a5f985
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
 
 PODFILE CHECKSUM: ac553280fa186a5a3a59cdb92533988015def493
 

@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E971FC78C11B3B858EAAF2CC6DF882B /* ArubaCommons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EE67DEC31CD1C35A2ECA236D65A2A2 /* ArubaCommons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		158B939C8DB00E1660ABB8F2933992E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		256873D478CE8EB5E8497308CBBFEC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2AD382D320A42D29007EA4DA /* UIColor+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D120A42D29007EA4DA /* UIColor+XT.swift */; };
-		2AD382D420A42D29007EA4DA /* UIColor+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D120A42D29007EA4DA /* UIColor+XT.swift */; };
-		2AD382D520A42D29007EA4DA /* UIColor+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D120A42D29007EA4DA /* UIColor+XT.swift */; };
-		2AD382D620A42D29007EA4DA /* String+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D220A42D29007EA4DA /* String+XT.swift */; };
-		2AD382D720A42D29007EA4DA /* String+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D220A42D29007EA4DA /* String+XT.swift */; };
-		2AD382D820A42D29007EA4DA /* String+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD382D220A42D29007EA4DA /* String+XT.swift */; };
+		2973740AC2450732E6D2AF79F4E169EB /* String+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900ED4495202C235BB9C6829569CE404 /* String+XT.swift */; };
 		61F460F4CC33C74774EA1FF17AF2736F /* Pods-ArubaCommons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3157929A709BC15EB02B9762D9FC10E3 /* Pods-ArubaCommons_Tests-dummy.m */; };
 		83D1B835E520A0AD3E400FC30DA31F41 /* Pods-ArubaCommons_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E10C78E8F7040D575DCC89A0460F81 /* Pods-ArubaCommons_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9457ED4A1D78CCB537F7E6A5B7E77199 /* ArubaCommons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B92EB9B6FF0B4EB74B4608B88A9CB1AC /* ArubaCommons-dummy.m */; };
+		89384FE2E323A4DD222945C2A155C6C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C9882A678B13530F37DEF5435D2BF59 /* ArubaCommons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A3FBB7A5CE369C6DFB3CA19990E581 /* ArubaCommons-dummy.m */; };
 		B3AC4F364734A260F3753F46297A3071 /* Pods-ArubaCommons_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE75E8AD3523F0B83EA42A1D8462FD3 /* Pods-ArubaCommons_Example-dummy.m */; };
-		CE5F36F72DF225CA5FF549140391EA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C71792D22048052E0B0C2AB33DBFC045 /* UIColor+XT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40E8CD472FDC0A35D2E43F2AFE60326 /* UIColor+XT.swift */; };
 		DB8F0EC2E5E8F98B362A3E745FBDD248 /* Pods-ArubaCommons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D20A901FDA658B740DA626D972A7098 /* Pods-ArubaCommons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC676BCFD9984FDC8E8E6579AE2C865F /* ArubaCommons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FADD09D4C396FF045D01D4CA35657A1F /* ArubaCommons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7A85D2F7FA3C60273262A2646979BB6A;
+			remoteGlobalIDString = 985AAD9B40A52057B7814A88AB460254;
 			remoteInfo = ArubaCommons;
 		};
 		86367548245189C4F86F2F6E92F592BB /* PBXContainerItemProxy */ = {
@@ -44,51 +40,43 @@
 /* Begin PBXFileReference section */
 		00863027914EB1D8028C052C0EB6D422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		022273FD21E17C59C8E81E50D44E5E50 /* Pods-ArubaCommons_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArubaCommons_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0310654E024EEC11A15E879E18FCC344 /* ArubaCommons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArubaCommons-prefix.pch"; sourceTree = "<group>"; };
 		047F363BEE3E08F4E81932F8887D4CE9 /* Pods-ArubaCommons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArubaCommons_Tests.modulemap"; sourceTree = "<group>"; };
-		0642BAFF4B5E83287BE40BB13A0578C8 /* ArubaCommons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ArubaCommons.modulemap; sourceTree = "<group>"; };
 		0D20A901FDA658B740DA626D972A7098 /* Pods-ArubaCommons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArubaCommons_Tests-umbrella.h"; sourceTree = "<group>"; };
 		12E10C78E8F7040D575DCC89A0460F81 /* Pods-ArubaCommons_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArubaCommons_Example-umbrella.h"; sourceTree = "<group>"; };
-		13F435BDB7473C2CC709F308BBD382A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		202AC85FF6A2D376E9862D267FF0B5AE /* Pods-ArubaCommons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArubaCommons_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2AD382D120A42D29007EA4DA /* UIColor+XT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+XT.swift"; sourceTree = "<group>"; };
-		2AD382D220A42D29007EA4DA /* String+XT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+XT.swift"; sourceTree = "<group>"; };
+		22203976381CE6BB0E25A259D87C6727 /* ArubaCommons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ArubaCommons.xcconfig; sourceTree = "<group>"; };
 		3157929A709BC15EB02B9762D9FC10E3 /* Pods-ArubaCommons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArubaCommons_Tests-dummy.m"; sourceTree = "<group>"; };
 		33561CAFF05947C76983B91B99C3DFD9 /* Pods-ArubaCommons_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArubaCommons_Example-resources.sh"; sourceTree = "<group>"; };
-		3C2048B70125607FB923A615C27F9CE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E642CD23C7B8B04C2B6D4501A4C8EAC /* ArubaCommons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ArubaCommons.modulemap; sourceTree = "<group>"; };
 		42325FC87BBF59009529692C8C2D8B88 /* Pods-ArubaCommons_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArubaCommons_Example.release.xcconfig"; sourceTree = "<group>"; };
+		46A3FBB7A5CE369C6DFB3CA19990E581 /* ArubaCommons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArubaCommons-dummy.m"; sourceTree = "<group>"; };
+		4AB3DB5FAE76B444DCA99CC656467C78 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4F2B6A24B48AA9C4CADED8962E7C41F5 /* Pods-ArubaCommons_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArubaCommons_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		520A1956C16B5240DDDA8E2198939F8E /* Pods-ArubaCommons_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArubaCommons_Example.modulemap"; sourceTree = "<group>"; };
-		61EE67DEC31CD1C35A2ECA236D65A2A2 /* ArubaCommons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArubaCommons-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A04DE42E5C57F6199B460A8D9EE7C11 /* Pods-ArubaCommons_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArubaCommons_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		77FC690E513ECA9C80773B1C9CB0DE55 /* ArubaCommons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ArubaCommons.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7EE75E8AD3523F0B83EA42A1D8462FD3 /* Pods-ArubaCommons_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArubaCommons_Example-dummy.m"; sourceTree = "<group>"; };
+		811C5B76686BE8D56B7F601755A32929 /* ArubaCommons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArubaCommons-prefix.pch"; sourceTree = "<group>"; };
+		900ED4495202C235BB9C6829569CE404 /* String+XT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+XT.swift"; path = "ArubaCommons/Source/String+XT.swift"; sourceTree = "<group>"; };
+		92565282AFEE071A5742DEF7C9327C5F /* ArubaCommons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ArubaCommons.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		956D68ACBDC8210F57915F750A7EEE2F /* Pods-ArubaCommons_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArubaCommons_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97BC415CE9964C62587717490C68675F /* Pods-ArubaCommons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArubaCommons_Tests-resources.sh"; sourceTree = "<group>"; };
 		99DCBBD7CFE23F724A1B208CA588F23C /* Pods_ArubaCommons_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArubaCommons_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A78788239205576CC420228B7413CD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B8B1F01D4E5C39410463CA5D64CC5DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DFC92F5CF49FDA31F705FF1BD317258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AABA4AD908668478F6A4A5D1CE9CBD65 /* Pods-ArubaCommons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArubaCommons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE8B7E0DCC356A9C423A14401AB34A49 /* Pods-ArubaCommons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArubaCommons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2D1D696EF2F39D76C06A1C903623871 /* Pods_ArubaCommons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArubaCommons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B92EB9B6FF0B4EB74B4608B88A9CB1AC /* ArubaCommons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ArubaCommons-dummy.m"; sourceTree = "<group>"; };
 		C0335524A88540AC97B11B935C2B4123 /* ArubaCommons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArubaCommons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C746753947A054096596F20D9FF0ABBB /* Pods-ArubaCommons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArubaCommons_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF471DBF9EA774627152E1EFA5689AEC /* ArubaCommons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ArubaCommons.xcconfig; sourceTree = "<group>"; };
+		E40E8CD472FDC0A35D2E43F2AFE60326 /* UIColor+XT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+XT.swift"; path = "ArubaCommons/Source/UIColor+XT.swift"; sourceTree = "<group>"; };
 		E986FC2888D75E80E4CF6812B50D25E5 /* Pods-ArubaCommons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArubaCommons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0DCB7746EA6AC252270798CEB7BBFB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADD09D4C396FF045D01D4CA35657A1F /* ArubaCommons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ArubaCommons-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15AF6A3B8DB6B3C981B09F1A629D535F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5F36F72DF225CA5FF549140391EA6D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		368F33B89F4ABB2CC8D76866CA6FB1FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,15 +93,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D774A8A4A795AC698AC75CB08D37B5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89384FE2E323A4DD222945C2A155C6C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A292137EEF2AFAE2D43E16FCF462AEB /* Development Pods */ = {
+		10D38330449F889A4FA4A32679361101 /* ArubaCommons */ = {
 			isa = PBXGroup;
 			children = (
-				A86E6126C414EB32451EA1F2F5D5836C /* ArubaCommons */,
+				900ED4495202C235BB9C6829569CE404 /* String+XT.swift */,
+				E40E8CD472FDC0A35D2E43F2AFE60326 /* UIColor+XT.swift */,
+				9FB4B29C05DCD5DD66F05BF6E2DB0D66 /* Pod */,
+				52A730E4A127D6BBE058162F3D1444BA /* Support Files */,
 			);
-			name = "Development Pods";
+			name = ArubaCommons;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1AC8DA478428BE3302F63D64BE9C2BFB /* Pods-ArubaCommons_Tests */ = {
@@ -134,22 +134,34 @@
 			path = "Target Support Files/Pods-ArubaCommons_Tests";
 			sourceTree = "<group>";
 		};
-		2AD382D020A42CFD007EA4DA /* Source */ = {
+		32A23E08346748F1793F899C5FF672C1 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				2AD382D220A42D29007EA4DA /* String+XT.swift */,
-				2AD382D120A42D29007EA4DA /* UIColor+XT.swift */,
 			);
-			name = Source;
-			path = ArubaCommons/Source;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		52A730E4A127D6BBE058162F3D1444BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E642CD23C7B8B04C2B6D4501A4C8EAC /* ArubaCommons.modulemap */,
+				22203976381CE6BB0E25A259D87C6727 /* ArubaCommons.xcconfig */,
+				46A3FBB7A5CE369C6DFB3CA19990E581 /* ArubaCommons-dummy.m */,
+				811C5B76686BE8D56B7F601755A32929 /* ArubaCommons-prefix.pch */,
+				FADD09D4C396FF045D01D4CA35657A1F /* ArubaCommons-umbrella.h */,
+				F0DCB7746EA6AC252270798CEB7BBFB1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ArubaCommons";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1A292137EEF2AFAE2D43E16FCF462AEB /* Development Pods */,
+				FFFF3E1FEA3A0114FB3F38B97B6BF705 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */,
 				9FA1F39DCFB4141402B1B077A1A3FBD8 /* Products */,
 				ECE02CBFDBE69586790E6D0EE42F7E49 /* Targets Support Files */,
 			);
@@ -173,6 +185,14 @@
 			path = "Target Support Files/Pods-ArubaCommons_Example";
 			sourceTree = "<group>";
 		};
+		9758CC519AE2C57A9659FFC01AAD26F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32A23E08346748F1793F899C5FF672C1 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9FA1F39DCFB4141402B1B077A1A3FBD8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,29 +203,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A18485DF4FCD1807651C3DF26A5B9EC6 /* Support Files */ = {
+		9FB4B29C05DCD5DD66F05BF6E2DB0D66 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0642BAFF4B5E83287BE40BB13A0578C8 /* ArubaCommons.modulemap */,
-				CF471DBF9EA774627152E1EFA5689AEC /* ArubaCommons.xcconfig */,
-				B92EB9B6FF0B4EB74B4608B88A9CB1AC /* ArubaCommons-dummy.m */,
-				0310654E024EEC11A15E879E18FCC344 /* ArubaCommons-prefix.pch */,
-				61EE67DEC31CD1C35A2ECA236D65A2A2 /* ArubaCommons-umbrella.h */,
-				3C2048B70125607FB923A615C27F9CE9 /* Info.plist */,
+				92565282AFEE071A5742DEF7C9327C5F /* ArubaCommons.podspec */,
+				4AB3DB5FAE76B444DCA99CC656467C78 /* LICENSE */,
+				9A78788239205576CC420228B7413CD3 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ArubaCommons";
-			sourceTree = "<group>";
-		};
-		A86E6126C414EB32451EA1F2F5D5836C /* ArubaCommons */ = {
-			isa = PBXGroup;
-			children = (
-				2AD382D020A42CFD007EA4DA /* Source */,
-				E2D41521C1FE74293ABA82AB0398CA80 /* Pod */,
-				A18485DF4FCD1807651C3DF26A5B9EC6 /* Support Files */,
-			);
-			name = ArubaCommons;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -224,16 +229,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2D41521C1FE74293ABA82AB0398CA80 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				77FC690E513ECA9C80773B1C9CB0DE55 /* ArubaCommons.podspec */,
-				9DFC92F5CF49FDA31F705FF1BD317258 /* LICENSE */,
-				13F435BDB7473C2CC709F308BBD382A5 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		ECE02CBFDBE69586790E6D0EE42F7E49 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,22 +238,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FFFF3E1FEA3A0114FB3F38B97B6BF705 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D38330449F889A4FA4A32679361101 /* ArubaCommons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3CC08356E27F739ACF5D7F2094570C66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC676BCFD9984FDC8E8E6579AE2C865F /* ArubaCommons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6585071B555B3B4E2AFA82E839B31A89 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83D1B835E520A0AD3E400FC30DA31F41 /* Pods-ArubaCommons_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9072A0AF1E69033AE630D47D77CE572 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E971FC78C11B3B858EAAF2CC6DF882B /* ArubaCommons-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,24 +276,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7A85D2F7FA3C60273262A2646979BB6A /* ArubaCommons */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B13FA607CC7F1F01A1E2C3FEF684948 /* Build configuration list for PBXNativeTarget "ArubaCommons" */;
-			buildPhases = (
-				07C09155E0AF95CC4BCC6DA3741AFEE1 /* Sources */,
-				15AF6A3B8DB6B3C981B09F1A629D535F /* Frameworks */,
-				B9072A0AF1E69033AE630D47D77CE572 /* Headers */,
-				2AD382DA20A42E56007EA4DA /* Swiftlint */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ArubaCommons;
-			productName = ArubaCommons;
-			productReference = C0335524A88540AC97B11B935C2B4123 /* ArubaCommons.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		972D3EF29F84A6B32BAD3BB035EAC366 /* Pods-ArubaCommons_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C335356DEEEA04AC13A7CB0A4E466DB /* Build configuration list for PBXNativeTarget "Pods-ArubaCommons_Tests" */;
@@ -307,6 +292,24 @@
 			name = "Pods-ArubaCommons_Tests";
 			productName = "Pods-ArubaCommons_Tests";
 			productReference = B2D1D696EF2F39D76C06A1C903623871 /* Pods_ArubaCommons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		985AAD9B40A52057B7814A88AB460254 /* ArubaCommons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F120A0F3A71F3723CD84799B6BE47B /* Build configuration list for PBXNativeTarget "ArubaCommons" */;
+			buildPhases = (
+				6E9B243F55B5529631E90C4A748D1C61 /* Sources */,
+				D774A8A4A795AC698AC75CB08D37B5DB /* Frameworks */,
+				3CC08356E27F739ACF5D7F2094570C66 /* Headers */,
+				2AD382DC20A432C2007EA4DA /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArubaCommons;
+			productName = ArubaCommons;
+			productReference = C0335524A88540AC97B11B935C2B4123 /* ArubaCommons.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A7BF4292016E693A4F2C41E38DB656B /* Pods-ArubaCommons_Example */ = {
@@ -335,17 +338,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					7A85D2F7FA3C60273262A2646979BB6A = {
-						LastSwiftMigration = 0930;
-					};
-					972D3EF29F84A6B32BAD3BB035EAC366 = {
-						LastSwiftMigration = 0930;
-					};
-					9A7BF4292016E693A4F2C41E38DB656B = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,7 +351,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A85D2F7FA3C60273262A2646979BB6A /* ArubaCommons */,
+				985AAD9B40A52057B7814A88AB460254 /* ArubaCommons */,
 				9A7BF4292016E693A4F2C41E38DB656B /* Pods-ArubaCommons_Example */,
 				972D3EF29F84A6B32BAD3BB035EAC366 /* Pods-ArubaCommons_Tests */,
 			);
@@ -367,7 +359,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AD382DA20A42E56007EA4DA /* Swiftlint */ = {
+		2AD382DC20A432C2007EA4DA /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -384,13 +376,13 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		07C09155E0AF95CC4BCC6DA3741AFEE1 /* Sources */ = {
+		6E9B243F55B5529631E90C4A748D1C61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9457ED4A1D78CCB537F7E6A5B7E77199 /* ArubaCommons-dummy.m in Sources */,
-				2AD382D620A42D29007EA4DA /* String+XT.swift in Sources */,
-				2AD382D320A42D29007EA4DA /* UIColor+XT.swift in Sources */,
+				9C9882A678B13530F37DEF5435D2BF59 /* ArubaCommons-dummy.m in Sources */,
+				2973740AC2450732E6D2AF79F4E169EB /* String+XT.swift in Sources */,
+				C71792D22048052E0B0C2AB33DBFC045 /* UIColor+XT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AC4F364734A260F3753F46297A3071 /* Pods-ArubaCommons_Example-dummy.m in Sources */,
-				2AD382D720A42D29007EA4DA /* String+XT.swift in Sources */,
-				2AD382D420A42D29007EA4DA /* UIColor+XT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +399,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F460F4CC33C74774EA1FF17AF2736F /* Pods-ArubaCommons_Tests-dummy.m in Sources */,
-				2AD382D820A42D29007EA4DA /* String+XT.swift in Sources */,
-				2AD382D520A42D29007EA4DA /* UIColor+XT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,156 +414,13 @@
 		C8BE5E1BE984C2052E577B5A5A05D644 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ArubaCommons;
-			target = 7A85D2F7FA3C60273262A2646979BB6A /* ArubaCommons */;
+			target = 985AAD9B40A52057B7814A88AB460254 /* ArubaCommons */;
 			targetProxy = 0BB04204DE8755386D71FAAC1FB303AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		283F0553726EB3A8BC670442FF4C0124 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF471DBF9EA774627152E1EFA5689AEC /* ArubaCommons.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ArubaCommons/ArubaCommons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ArubaCommons/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ArubaCommons/ArubaCommons.modulemap";
-				PRODUCT_MODULE_NAME = ArubaCommons;
-				PRODUCT_NAME = ArubaCommons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3481EDFD404AB080B0B6C75138BBA561 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42325FC87BBF59009529692C8C2D8B88 /* Pods-ArubaCommons_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Example/Pods-ArubaCommons_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BB4D3A0E4E7465458D47A89FA2D5500 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A04DE42E5C57F6199B460A8D9EE7C11 /* Pods-ArubaCommons_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Example/Pods-ArubaCommons_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		891FC9C2A159D1696EEDBA8D1833D711 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E986FC2888D75E80E4CF6812B50D25E5 /* Pods-ArubaCommons_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Pods-ArubaCommons_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -638,7 +483,209 @@
 			};
 			name = Debug;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		1CB26A7DD36F809565DD9405F0D5E7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C746753947A054096596F20D9FF0ABBB /* Pods-ArubaCommons_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Pods-ArubaCommons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9366413630AFD5696ADA3A15F3E1CAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22203976381CE6BB0E25A259D87C6727 /* ArubaCommons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ArubaCommons/ArubaCommons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArubaCommons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArubaCommons/ArubaCommons.modulemap";
+				PRODUCT_MODULE_NAME = ArubaCommons;
+				PRODUCT_NAME = ArubaCommons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		992E4EB9D95B69B6FC3D39236661A4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22203976381CE6BB0E25A259D87C6727 /* ArubaCommons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ArubaCommons/ArubaCommons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ArubaCommons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ArubaCommons/ArubaCommons.modulemap";
+				PRODUCT_MODULE_NAME = ArubaCommons;
+				PRODUCT_NAME = ArubaCommons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A722D234B1B7CD341D5E54ACCFEE1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42325FC87BBF59009529692C8C2D8B88 /* Pods-ArubaCommons_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Example/Pods-ArubaCommons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE36515BA067FA6451B1FB6FA1C8F59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A04DE42E5C57F6199B460A8D9EE7C11 /* Pods-ArubaCommons_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Example/Pods-ArubaCommons_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8B8B52DB5AD848E75F3D547ABB91A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E986FC2888D75E80E4CF6812B50D25E5 /* Pods-ArubaCommons_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Pods-ArubaCommons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -696,84 +743,14 @@
 			};
 			name = Release;
 		};
-		E12A43C9113698FCA6A4F05948161E01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C746753947A054096596F20D9FF0ABBB /* Pods-ArubaCommons_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ArubaCommons_Tests/Pods-ArubaCommons_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E451F2D163BDDBA74F15143550E9BAD4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF471DBF9EA774627152E1EFA5689AEC /* ArubaCommons.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ArubaCommons/ArubaCommons-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ArubaCommons/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ArubaCommons/ArubaCommons.modulemap";
-				PRODUCT_MODULE_NAME = ArubaCommons;
-				PRODUCT_NAME = ArubaCommons;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		0C335356DEEEA04AC13A7CB0A4E466DB /* Build configuration list for PBXNativeTarget "Pods-ArubaCommons_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				891FC9C2A159D1696EEDBA8D1833D711 /* Debug */,
-				E12A43C9113698FCA6A4F05948161E01 /* Release */,
+				F8B8B52DB5AD848E75F3D547ABB91A57 /* Debug */,
+				1CB26A7DD36F809565DD9405F0D5E7AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,17 +758,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B13FA607CC7F1F01A1E2C3FEF684948 /* Build configuration list for PBXNativeTarget "ArubaCommons" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				283F0553726EB3A8BC670442FF4C0124 /* Debug */,
-				E451F2D163BDDBA74F15143550E9BAD4 /* Release */,
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -799,8 +767,17 @@
 		95D6AE9E8F2F0C7FF109C5FE39433453 /* Build configuration list for PBXNativeTarget "Pods-ArubaCommons_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6BB4D3A0E4E7465458D47A89FA2D5500 /* Debug */,
-				3481EDFD404AB080B0B6C75138BBA561 /* Release */,
+				CE36515BA067FA6451B1FB6FA1C8F59C /* Debug */,
+				A722D234B1B7CD341D5E54ACCFEE1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F120A0F3A71F3723CD84799B6BE47B /* Build configuration list for PBXNativeTarget "ArubaCommons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9366413630AFD5696ADA3A15F3E1CAAC /* Debug */,
+				992E4EB9D95B69B6FC3D39236661A4B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

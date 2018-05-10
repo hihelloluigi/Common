@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.1'
 
-  s.source_files = 'ArubaCommons/Classes/**/*'
+  s.source_files = 'ArubaCommons/Source/**/*'
   
   # s.resource_bundles = {
   #   'ArubaCommons' => ['ArubaCommons/Assets/*.png']
@@ -41,6 +41,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'SwiftLint'
 
 end

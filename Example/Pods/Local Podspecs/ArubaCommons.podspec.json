@@ -1,22 +1,28 @@
 {
   "name": "ArubaCommons",
   "version": "0.1.0",
-  "summary": "A short description of ArubaCommons.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mo3bius/ArubaCommons",
+  "summary": "A simple pod that include extensions.",
+  "description": "'This is a simple pod that include all extensions and classes used in all projects'",
+  "homepage": "https://github.com/mo3bius/Common",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mo3bius": "luigiaiello97@gmail.com"
+    "Aruba - Luigi Aiello": "luigi.aiello@consultant.aruba.it"
   },
   "source": {
-    "git": "https://github.com/mo3bius/ArubaCommons.git",
+    "git": "https://github.com/mo3bius/Common.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "ArubaCommons/Classes/**/*"
+  "swift_version": "4.1",
+  "source_files": "ArubaCommons/Source/**/*",
+  "dependencies": {
+    "SwiftLint": [
+
+    ]
+  }
 }
